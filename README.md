@@ -66,13 +66,6 @@ Dataset usado: [Alzheimer's Prediction Dataset (Kaggle)](https://www.kaggle.com/
 
 ---
 
-## 📁 Organização do Código
-
-- `Alzheimer_Risk_Prediction.ipynb`: notebook com todo o código
-- `figs/`: pasta com os gráficos gerados
-- `requirements.txt`: dependências do projeto
-
----
 
 ## ✅ Conclusão
 

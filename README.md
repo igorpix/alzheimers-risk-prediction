@@ -51,7 +51,8 @@ Dataset usado: [Alzheimer's Prediction Dataset (Kaggle)](https://www.kaggle.com/
 
 ### Matriz de Confusão
 
-![confusion](figs/matriz_confusao.png)
+![confusion](![image](https://github.com/user-attachments/assets/46490f17-ebff-4b0c-acb4-944b66bedd2c)
+)
 
 ### Curva ROC
 

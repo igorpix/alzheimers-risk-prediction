@@ -82,5 +82,5 @@ O modelo foi capaz de atingir um desempenho razoável, com destaque para variáv
 
 ## 🧠 Autor
 
-Projeto desenvolvido por [Seu Nome] para a disciplina PPGEEC2318.
+Projeto desenvolvido por Igor Matias de Lima Dantas para a disciplina PPGEEC2318.
 

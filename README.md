@@ -51,16 +51,18 @@ Dataset usado: [Alzheimer's Prediction Dataset (Kaggle)](https://www.kaggle.com/
 
 ### Matriz de Confusão
 
-![confusion](![image](https://github.com/user-attachments/assets/46490f17-ebff-4b0c-acb4-944b66bedd2c)
-)
+![image](https://github.com/user-attachments/assets/f5b9d3d8-2f2c-45c3-8d7e-b1c786266d33)
+
 
 ### Curva ROC
 
-![roc](figs/roc_curve.png)
+![image](https://github.com/user-attachments/assets/1e660817-c98b-4ff1-be5a-dd70708ae7a7)
+
 
 ### Importância das Features
 
-![features](figs/feature_importance.png)
+![image](https://github.com/user-attachments/assets/c1131d21-01a9-4040-8dc0-ad07878a7b31)
+
 
 ---
 

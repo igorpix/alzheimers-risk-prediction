@@ -1,79 +1,65 @@
-# 🧠 Alzheimer Risk Prediction
+🧠 Alzheimer Risk Prediction
+Este projeto tem como objetivo prever o risco de Alzheimer com base em variáveis clínicas, demográficas, de estilo de vida e condições médicas. Ele foi desenvolvido como parte do Projeto 01 da disciplina de Aprendizado de Máquina (PPGEEC2318).
 
-Este projeto tem como objetivo prever o risco de Alzheimer com base em variáveis clínicas, demográficas, de estilo de vida e fatores genéticos. Ele foi desenvolvido como parte do Projeto 01 da disciplina de Aprendizado de Máquina (PPGEEC2318).
-
-## 📊 Problema
-
+📊 Problema
 Classificação binária: prever se um paciente tem ou não Alzheimer com base em diversos atributos.
 
-Dataset usado: [Alzheimer's Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/ankushpanday1/alzheimers-prediction-dataset-global)
+Dataset usado: Operation Mind Shield Dataset
 
----
+🧪 Tecnologias Utilizadas
+Python
 
-## 🧪 Tecnologias Utilizadas
+Pandas, NumPy, Scikit-learn
 
-- Python
-- Pandas, NumPy, Scikit-learn
-- PyTorch
-- Matplotlib, Seaborn
+PyTorch
 
----
+Matplotlib, Seaborn
 
-## 🔍 Etapas do Projeto
+🔍 Etapas do Projeto
+1. Análise Exploratória
+Sem valores ausentes
 
-### 1. Análise Exploratória
-- Sem valores ausentes
-- Distribuição equilibrada entre variáveis
-- Variável-alvo: `Alzheimer’s Diagnosis` (Yes/No)
+Variáveis numéricas e binárias
 
-### 2. Pré-processamento
-- One-Hot Encoding das variáveis categóricas
-- Normalização com StandardScaler
-- Separação em treino e teste (80/20)
+Variável-alvo: Diagnosis (0 = Não, 1 = Sim)
 
-### 3. Modelo
-- Regressão logística com PyTorch (`nn.Linear + Sigmoid`)
-- Função de perda: `BCELoss`
-- Otimizador: `SGD`
-- Treinamento por 100 épocas
+2. Pré-processamento
+Remoção de colunas irrelevantes (PatientID e DoctorInCharge)
 
-### 4. Avaliação
-- Acurácia: **71,5%**
-- Precisão: **67,3%**
-- Recall: **60,5%**
-- F1-score: **63,7%**
-- AUC: **0.77**
-- Métricas obtidas com `sklearn.metrics`
+Normalização com StandardScaler
 
----
+Separação em treino e teste (80/20)
 
-## 📈 Visualizações
+3. Modelo
+Regressão logística com PyTorch (nn.Linear + Sigmoid)
 
-### Matriz de Confusão
+Função de perda: BCELoss
 
-![image](https://github.com/user-attachments/assets/f5b9d3d8-2f2c-45c3-8d7e-b1c786266d33)
+Otimizador: SGD
 
+Treinamento por 100 épocas
 
-### Curva ROC
+4. Avaliação
+Acurácia: 83,0%
 
-![image](https://github.com/user-attachments/assets/1e660817-c98b-4ff1-be5a-dd70708ae7a7)
+Precisão: 78,9%
 
+Recall: 71,2%
 
-### Importância das Features
+F1-score: 74,9%
 
-![image](https://github.com/user-attachments/assets/c1131d21-01a9-4040-8dc0-ad07878a7b31)
+AUC: 0.87
 
+Métricas obtidas com sklearn.metrics
 
----
+📈 Visualizações
+Matriz de Confusão
 
+![image](https://github.com/user-attachments/assets/fbdef099-2270-47a4-a860-f93217dbd79f)
 
-## ✅ Conclusão
+✅ Conclusão
+O modelo atingiu um bom desempenho, evidenciado por alta acurácia e AUC. As variáveis clínicas, comportamentais e de estilo de vida mostraram impacto relevante na previsão do risco de Alzheimer.
+Melhorias futuras podem incluir redes neurais profundas ou técnicas de ensemble para refinar ainda mais a classificação.
 
-O modelo foi capaz de atingir um desempenho razoável, com destaque para variáveis como idade, presença do alelo APOE-ε4, histórico familiar e país de origem. Melhorias futuras podem incluir redes neurais ou ensemble models.
-
----
-
-## 🧠 Autor
-
+🧠 Autor
 Projeto desenvolvido por Igor Matias de Lima Dantas para a disciplina PPGEEC2318.
-
